@@ -19,8 +19,15 @@ pip install netCDF4          # recommended for NetCDF output
 ## Installation
 
 ```bash
-cd comet_qc_corrected/
+cd comet_qc/
 pip install .
+```
+
+ONLY if the above is unsuccessful, try:
+
+```bash
+cd comet_qc/
+pip install -e .
 ```
 
 After installation the `comet-qc` command is available on your PATH.
