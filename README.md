@@ -38,8 +38,8 @@ There is a single command: `process`. Point it at the catalog, the format file, 
 
 ```bash
 comet-qc process \
-    --catalog /path/to/comet_qc_2024.csv \
-    --format  {path/to/CoMeT_data_format.csv \
+    --catalog {/path/to/comet_qc_2024.csv} \
+    --format  {/path/to/CoMeT_data_format.csv} \
     --dir     "{path/to/data}"
 ```
 
