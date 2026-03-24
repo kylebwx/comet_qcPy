@@ -61,7 +61,7 @@ _VARS = [
 ]
 
 
-def _try_nc4():
+def _try_nc4(): # I'm tired boss. So this is a catch-all for those stuck with nc3
     try:
         import netCDF4 as nc4
         return nc4
