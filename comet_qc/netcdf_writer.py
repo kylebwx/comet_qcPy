@@ -25,6 +25,13 @@ ERRVAL = -999.0
 # Each entry: (nc_name, df_column, dtype, units, standard_name, long_name,
 #              source, transform_fn)
 # transform_fn is applied to the raw column array (masked for errval).
+# PLEASE NOTE: You may add or remove variables avaliable in the raw CoMeT data as needed.
+# However, it your responsibility to ensure:
+# 1) The data are avaliable
+# 2) The QC process is applied correctly to your variables.
+#
+# It is probably better if you calculate any other variables from pre-QC'd data
+# before you add more to the _VARS array.
 # ---------------------------------------------------------------------------
 _VARS = [
     # nc_name        df_col                 dt   units                                  std_name                           long_name                                            source              transform
