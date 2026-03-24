@@ -38,9 +38,9 @@ There is a single command: `process`. Point it at the catalog, the format file, 
 
 ```bash
 comet-qc process \
-    --catalog /data/comet_qc_2024.csv \
-    --format  /data/CoMeT_data_format.csv \
-    --dir     "/data/MITTEN-CI/20240712/CoMeT-alpha/Original data/"
+    --catalog /path/to/comet_qc_2024.csv \
+    --format  {path/to/CoMeT_data_format.csv \
+    --dir     "{path/to/data}"
 ```
 
 The tool will:
