@@ -179,4 +179,8 @@ falls back to `scipy`'s legacy NetCDF3 writer automatically.
 ### Catalog update
 
 After successfully QC-ing a file, the `QC TXT` column in the catalog CSV is
-set to `1`. The CSV is rewritten in place.
+set to `1`. The CSV is rewritten in place. This is an intentional feature to prevent
+overwriting data.
+
+You MUST input 'y' to overwrite previously qc'd data OR set the
+QC flag back to 0 before the program will overwrite any nc files from other runs.
